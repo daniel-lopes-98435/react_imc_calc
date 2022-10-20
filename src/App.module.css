@@ -25,6 +25,44 @@ body{
     flex: 1;
     margin-right: 40px;
 }
+.container .leftside h1{
+    margin: 0;
+    font-size: 40px;
+    color: #3A4B5C;
+}
+
+.container .leftside p{
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+    color: #6A7D8B;
+}
+
+.container .leftside input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(150,163,171, .5);
+    padding: 20px 2x;
+    margin-bottom: 40px;
+    font-size: 14px;
+    outline: 0;
+}
+
+.container .leftside button{
+    background-color: #227C9D;
+    color: #FFF;
+    font-size: 14px;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 100%;
+    transition: all ease .3s;
+    
+}
+
+.container .leftside button:hover{
+    background-color: #0f8bb8;
+    opacity: 0.8;
+}
 
 .container .rightSide{
     flex: 1;
