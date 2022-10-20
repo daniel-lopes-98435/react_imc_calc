@@ -9,6 +9,14 @@ const App = () =>{
           <img src={poweredImage} alt="" width={150}/>
         </div>
       </header>
+      <div className={style.container}>
+        <div className={style.leftside}>
+          left 123
+        </div>
+        <div className={style.rightSide}>
+          right 456
+        </div>
+      </div>
     </div>
   )
 }
