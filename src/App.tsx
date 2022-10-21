@@ -70,7 +70,7 @@ const App = () =>{
 				<div className={styles.rigthArrow} onClick={handleBackButton}>
 					<img src={leftArrowImage} alt="" width={25}/>
 				</div>
-					<GridItem item={toShow} />
+				<GridItem item={toShow} />
 			</div>
 		  }
         </div>
